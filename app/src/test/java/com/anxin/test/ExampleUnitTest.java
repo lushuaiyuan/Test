@@ -14,4 +14,10 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void ceshi(){
+        com.anxin.mylibrary.Test test = new com.anxin.mylibrary.Test();
+        System.out.print( test.addition(1, 2));
+    }
 }
